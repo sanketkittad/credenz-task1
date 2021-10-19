@@ -1,0 +1,134 @@
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	overflow-x: hidden;
+}
+.tops{
+	background-color: darkblue;
+	height: 5vh;
+	width: 100vw;
+	position: relative;
+}
+.darker-border{
+	border-color: #b6bfc8 !important;
+}
+.wrapper{
+	width: 100%;
+	height: all;
+}
+.main{
+	height: 90vh;
+	width: 100%;
+	margin: 0;
+}
+.row-left{
+	display: flex; 
+	height: 30vh; 
+	width: 100%; 
+	margin: 0;
+	justify-content: center;
+}
+.temp-left{
+	height: 60%; 
+	width: 90%; 
+	margin-top: auto;
+	padding: 0;
+}
+.temp-right{
+	height: 85%; 
+	width: 90%; 
+	margin-top: auto;
+	padding: 0;
+}
+.sub-but{
+	width: 97%; 
+	height: 35px; 
+	font-size: 0.9rem;
+}
+.card-normal{
+	width: 90%;
+	margin-top: auto;
+}
+#time{
+	height: 60%;
+}
+.temp-center{
+	width: 97%; 
+	height: 80%; 
+	margin-top: auto;
+	padding: 0;
+
+}
+#temp-bottom{
+	height: 90%;
+}
+.row-center{
+	height: 55vh; 
+	width: 100%; 
+	margin: 0; 
+	display: flex; 
+	justify-content: center;
+}
+#name-pass{
+	height: 15vh;
+}
+.marks{
+	display: flex;
+	margin: auto;
+	height: auto;
+	padding: auto;
+	justify-self: center;
+	justify-content: center;
+	width: 50px;
+}
+.row-center-text{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+
+}
+.col-text{
+	display: flex;
+	justify-content: center;
+}
+#center-text {
+	width: 100%;
+	margin: auto;
+	height: 45%;	
+	font-size: 1em;
+	border-color: #c5ccd3 !important;
+}
+@media (max-width: 768px){
+	.row-left{
+		margin-bottom: 5vh;
+	}
+	#center-text{
+		height: 6vh;
+	}
+	#bottom{
+		margin-top: 153vh;
+	}
+	#name-pass{
+		height: 20vh;
+	}
+	.row-center{
+		height: 40vh;
+	}
+	#temp-bottom{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.temp-center{
+		margin: auto;
+	}
+	.row-center{
+		height: 40vh;
+	}
+}
+@media (width: 768px){
+	#bottom{
+		margin-top: 100vh !important;
+	}
+}
