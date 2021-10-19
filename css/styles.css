@@ -103,6 +103,7 @@ body{
 @media (max-width: 768px){
 	.row-left{
 		margin-bottom: 5vh;
+		height: 20vh;
 	}
 	#center-text{
 		height: 6vh;
