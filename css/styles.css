@@ -46,6 +46,9 @@ body{
 	width: 97%; 
 	height: 35px; 
 	font-size: 0.9rem;
+	display: flex;
+	justify-content: center;
+	margin: auto;
 }
 .card-normal{
 	width: 90%;
@@ -103,7 +106,7 @@ body{
 @media (max-width: 768px){
 	.row-left{
 		margin-bottom: 5vh;
-		height: 20vh;
+		height: 30vh;
 	}
 	#center-text{
 		height: 5vh;
