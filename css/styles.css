@@ -131,7 +131,8 @@ body{
 		height: 95%;
 	}
 	.but-hint{
-		height: 25px;
+		height: 40px;
+		margin: auto;
 	}
 }
 @media (width: 768px){
