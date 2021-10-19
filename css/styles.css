@@ -106,10 +106,10 @@ body{
 		height: 20vh;
 	}
 	#center-text{
-		height: 6vh;
+		height: 5vh;
 	}
 	#bottom{
-		margin-top: 105vh;
+		margin-top: 110vh;
 	}
 	#name-pass{
 		height: 20vh;
@@ -134,7 +134,7 @@ body{
 		height: 60%;
 		margin: auto;
 	}
-	
+
 }
 @media (width: 768px){
 	#bottom{
