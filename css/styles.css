@@ -130,6 +130,9 @@ body{
 	.card-normal{
 		height: 95%;
 	}
+	.but-hint{
+		height: auto;
+	}
 }
 @media (width: 768px){
 	#bottom{
