@@ -112,7 +112,7 @@ body{
 		height: 5vh;
 	}
 	#bottom{
-		margin-top: 110vh;
+		margin-top: 150vh ;
 	}
 	#name-pass{
 		height: 20vh;
@@ -134,7 +134,7 @@ body{
 		height: 95%;
 	}
 	.but-hint{
-		height: 60%;
+		
 		margin: auto;
 	}
 
