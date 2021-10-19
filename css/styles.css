@@ -127,6 +127,9 @@ body{
 	.row-center{
 		height: 40vh;
 	}
+	.card-normal{
+		height: 95%;
+	}
 }
 @media (width: 768px){
 	#bottom{
